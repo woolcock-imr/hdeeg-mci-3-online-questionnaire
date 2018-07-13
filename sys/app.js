@@ -8,8 +8,8 @@ $vm.module_list={
 //------------------------------------
 $vm.app_config={
     "api_path_development":"https://cbs.wappsystem.com/dev/",
-    "api_path_production":"https://cbs.wappsystem.com/pro/",
-    "default_production":"No",
+    "api_path_production":"https://rt.woolcock.org.au/pro/",
+    "default_production":"Yes",
 }
 //------------------------------------
 $vm.website_module_list_for_search=[];
