@@ -1,7 +1,7 @@
 {
 	"modules":
 	{
-        "quest":   {"url":"quest.html"},
+        "quest":   {"url":"panels/quest.html"},
 
         "main":   {"url":"panels/main.html"},
     	"child":  {"url":"panels/child.html"},
@@ -109,6 +109,16 @@
 		"Morning_Memory_Set1":{"table_id":"20011261","url":"tasks/Set1_Morning_Wordpairs.html"},
 		"Morning_Memory_Set2":{"table_id":"20011262","url":"tasks/Set2_morning_wordpairs.html"},
 		"quest_list":{
+			"list":{
+				"General information":[
+                    {"table_id":"20011120","task_name":"Ethnicity"},
+                    {"table_id":"20011121","task_name":"Lifestyle"},
+                    {"table_id":"20011204","task_name":"Education"},
+                    {"table_id":"20011205","task_name":"Medical_history"}
+				]
+            }
+        },
+		"_old_quest_list":{
 			"list":{
 				"General information":[
 					"Ethnicity",
