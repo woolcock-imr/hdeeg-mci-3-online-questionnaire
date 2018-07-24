@@ -8,7 +8,7 @@
 
         VmInclude:__CURRENT_PATH__/task-data.js
         //-------------------------------------
-        _task_fields="Document,Description,Location";
+        _task_fields="Document,Description,File_1,File_2,File_3,File_4,File_5,File_6,File_7,Location";
         _fields="_Form,Status|S3,Notes|NT,Participant,"+_task_fields;
         _fields+=",Submit Date|DateTime,Submitted by|Author,_Delete,_Hidden|Participant_uid";
         //-------------------------------------
@@ -18,7 +18,13 @@
         _cell_render=function(records,I,field,td,set_value,source){
             _default_cell_render(records,I,field,td,set_value,source);
             switch(field){
-                case 'Document':
+                case 'File_1':
+                case 'File_2':
+                case 'File_3':
+                case 'File_4':
+                case 'File_5':
+                case 'File_6':
+                case 'File_7':
                     VmInclude:__PARTS__/grid/field_file.js
                 break;
             }
